@@ -1,0 +1,74 @@
+.bg-img{
+    background-image: url("back.jpg");
+    /* background-color: rgb(234, 219, 198); */
+  
+    min-height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
+.container ol{
+    justify-content: flex-end;
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+    background-color: rgb(184, 80, 125);
+    padding: 10px;
+}
+.container ol li a{
+    text-decoration: none;
+}
+.pop{
+    /* margin-left: 500px;
+    margin-bottom: 1000vh; */
+    /* justify-content: start; */
+    margin: auto;
+    
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(184, 80, 125);
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main{
+    margin-top:70px ;
+    margin-right: 40px;
+    
+}
+.txt{
+    width: 50vh;
+    height: 80vh;
+}
+.add{
+    text-decoration: none;
+}
+.whole{
+    margin-left: 50px;
+    margin-bottom: 50vh;
+    display: flex; 
+    margin-top: 20px;
+    color: white;
+}
+
+
+/* .status{
+    background-color: rgb(102, 173, 235);
+display: flex;
+width: 10vh;
+height: 5vh;
+
+
+} */
+/* .status2{
+
+    padding: 50px;
+} */
