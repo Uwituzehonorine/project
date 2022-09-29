@@ -62,12 +62,13 @@
     height: 60vh;
     background-color: rgb(90, 90, 72);
   }
-  .si{
+  .si button{
     background-color:rgb(202, 162, 89) ;
     margin-top: 20px;
     height: 30px;
     text-align: center;
   }
+
   .cont{
     /* background-color: #ddd; */
     margin-top: 20px;
@@ -81,6 +82,14 @@
     width: 120px;
     border-radius: 50px;
     border: none;
+  }
+  .a{
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    height: 25px;
+    
   }
   .stu{
     margin: 50px;
