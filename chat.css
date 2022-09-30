@@ -53,13 +53,13 @@
   }
   .sidebar{
     width: 250px;
-    height: 60vh;
+    height: 70vh;
     background-color:rgb(241,197,197);
     text-align: center;
   }
   .containerside{
     width: 400px;
-    height: 60vh;
+    height: 70vh;
     background-color: rgb(69,60,60);
     color: #ddd;
   }
@@ -112,26 +112,32 @@ form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
-  float: left;
+  float: right;
   width: 80px;
   background: #f1f1f1;
+  /* margin-right: 50px; */
 }
+/* .containerside button.fa fa-search{
+  margin-right: 60px;
 
+} */
 /* Style the submit button */
 form.example button {
-  float: left;
-  width: 100px;
+  float: right;
+  width: 90px;
+  height: 40px;
   padding: 10px;
-  background: #2196F3;
+  background: #e7ebee;
   color: white;
+  /* margin-right: 50px; */
   font-size: 17px;
-  border: 1px solid grey;
+  border: 1px solid rgb(240, 227, 227);
   border-left: none; /* Prevent double borders */
   cursor: pointer;
 }
 
 form.example button:hover {
-  background: #0b7dda;
+  background: #a1b2bf;
 }
 
 /* Clear floats */
